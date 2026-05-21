@@ -30,20 +30,7 @@ class ProfilePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                "Profil",
-                style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-
             const SizedBox(height: 80),
-
             Row(
               children: [
                 const CircleAvatar(
